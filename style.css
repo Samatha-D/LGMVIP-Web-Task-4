@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+
+body { 
+background-image: url('https://slidechef.net/wp-content/uploads/2021/10/Free-Google-Slides-Maths-Background.jpg')
+}
+body, div, a {
+    padding:0;
+    margin:0;
+font-family: 'Roboto', sans-serif;
+	color: #080101;
+}
+
+#calculator {
+	background-color: #000000;
+	width: 248px;
+	height: 339px;
+	margin: 100px auto;
+	padding: 10px;
+	border-radius:10px;
+}
+
+
+ #total {
+    height: 70px;
+    width: 217px;
+    margin:auto;
+    background-color: #d4d4e9;
+    margin-bottom: 5px;
+    text-align: right;
+    font-size: 60px;
+    padding: 0.5px;
+	padding:15px; 
+	padding-top:0px; 
+} 
+
+#numbers, #operators {
+	margin: auto;	
+	cursor: pointer; 
+}
+
+#operators a {
+	display: block;
+	width: 65px;
+	height: 60px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 35px;
+	padding: 0px;
+	margin: 1px 0px;
+	background-color: #794006;  
+	
+		
+	
+	display: table-cell;
+	width: 40px;
+	height: 40px;
+	float: left;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	font-size: 25pt;
+	padding: 10px;
+	margin: 1px 1px;
+	background-color: #57377f; 
+	border:0px solid #aaa;
+
+}
+
+#operators a:active{ 
+background-color:#794006 !important; 
+}
+
+#numbers { 
+background-color: rgb(115, 150, 34); 
+	width: 300px; 
+}
+#numbers a {
+	
+	display: table-cell;
+	width: 40px;
+	height: 40px;
+	float: left;
+	text-decoration: none;
+	color: rgb(23, 17, 17);
+	text-align: center;
+	font-size: 25pt;
+	padding: 10px;
+	margin: 1px 1px;
+	background-color: #3cb418; 
+	border:0px solid #aaa;
+}
+
+#numbers a:active { 
+background-color: #794006; 
+}
+
+#operators {
+	width: 65px;float:left;margin-right:-3px;
+}
+
+a { 
+color: #090202 !important; 
+}
